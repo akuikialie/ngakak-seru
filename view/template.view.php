@@ -23,9 +23,10 @@
 	<!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
-    <link href="<?=base_url();?>../css/bootstrap.css" rel="stylesheet">
-    <link href="<?=base_url();?>../css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="<?=base_url();?>../css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
@@ -114,7 +115,7 @@
 		<div id="googlemaps" class="google-map google-map-full"></div>
 		<div id="googlemaps-container-bottom"></div>
 		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="<?=base_url();?>../js/jquery.gmap.min.js"></script>
+		<script src="../js/jquery.gmap.min.js"></script>
 		<script type="text/javascript">
 			$('#googlemaps').gMap({
 				maptype: 'ROADMAP',
@@ -144,15 +145,21 @@
 			<!-- start: Row -->
 			<div class="row">
                 <div class="span8">
-                <h2>Content And Image Here</h2>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-					</p>
+                    <div class="post-container">
+                        <h2>Judul Konten</h2><br>
+                        <div class="img-container">
+                            <img src="../img/default-image.png">
+                        </div>
+                    </div>
+                    <div class="post-tool">
+                        <ul class="social-bookmarks ">
+                            <li class="facebook" title="Share"><a href="#">facebook</a></li>
+                            <li class="twitter" title="Tweet"><a href="#">twitter</a></li>
+                        </ul>
+                        <a href="" class="like" title="Suka"><i class="ico-thumbs-up  ico-white circle-color-full small-color"></i></a>
+                        <a href="" class="like" title="Tidak Suka"><i class="ico-thumbs-down  ico-white circle-color-full small-color"></i></a>
+                        <a href="" class="like" title="Komentar"><i class="ico-chat ico-white circle-color-full small-color"></i></a>
+                    </div>
                 </div>
                 <div class="span4">
                 <h2>Ads Here</h2>
@@ -187,7 +194,7 @@
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<a href="#"><img src="<?=base_url();?>../img/logo-footer-menu.png" alt="logo" /></a>
+						<a href="#"><img src="../img/logo-footer-menu.png" alt="logo" /></a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
@@ -370,13 +377,13 @@
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="<?=base_url();?>../js/jquery-1.8.2.js"></script>
-<script src="<?=base_url();?>../js/bootstrap.js"></script>
-<script src="<?=base_url();?>../js/flexslider.js"></script>
-<script src="<?=base_url();?>../js/carousel.js"></script>
-<script src="<?=base_url();?>../js/jquery.cslider.js"></script>
-<script src="<?=base_url();?>../js/slider.js"></script>
-<script def src="<?=base_url();?>../js/custom.js"></script>
+<script src="../js/jquery-1.8.2.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/flexslider.js"></script>
+<script src="../js/carousel.js"></script>
+<script src="../js/jquery.cslider.js"></script>
+<script src="../js/slider.js"></script>
+<script def src="../js/custom.js"></script>
 <!-- end: Java Script -->
 
 </body>

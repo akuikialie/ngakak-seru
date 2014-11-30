@@ -231,8 +231,8 @@
 						<li class="dribbble"><a href="#">dribbble</a></li>
 						<li class="ember"><a href="#">ember</a></li>
 						<li class="evernote"><a href="#">evernote</a></li>
-						<li class="facebook"><a href="https://www.facebook.com/brankic1979themes">facebook</a></li>
-						<li class="flickr"><a href="http://www.flickr.com/photos/brankic1979/">flickr</a></li>
+						<li class="facebook"><a href="#">facebook</a></li>
+						<li class="flickr"><a href="#">flickr</a></li>
 						<li class="forrst"><a href="#">forrst</a></li>
 						<li class="github"><a href="#">github</a></li>
 						<li class="google"><a href="#">google</a></li>
