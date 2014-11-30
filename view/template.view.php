@@ -4,10 +4,10 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>NgakakSeru.com</title> 
-	<meta name="description" content="GotYa Free Bootstrap Theme"/>
-	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
-	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
+	<title>NgakakSeru- Santai Aja Kali</title> 
+	<meta name="description" content="Ngakak Seru Website Lucu"/>
+	<meta name="keywords" content="fun,funny,lol,meme,GIF,wtf,omg,fail,video,cosplay,geeky,forever alone" />
+	<meta name="author" content="DDA Academy"/>
 	<!-- end: Meta -->
 	
 	<!-- start: Mobile Specific -->
@@ -71,21 +71,22 @@
 			          			</a>
 			          			<div class="nav-collapse collapse">
 			            			<ul class="nav">
-			              				<li><a href="index.html">Home</a></li>
-			              				<li><a href="about.html">About</a></li>
-										<li><a href="services.html">Services</a></li>
-										<li><a href="pricing.html">Pricing</a></li>
-			              				<li class="active"><a href="contact.html">Contact</a></li>
+			              				<li><a href="index.html">TOP</a></li>
+			              				<li><a href="about.html">Trending</a></li>
+										<li><a href="services.html">Terbaru</a></li>
+										<li><a href="pricing.html">TV</a></li>
 			              				<li class="dropdown">
-			                				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+			                				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Kategori <b class="caret"></b></a>
 			                				<ul class="dropdown-menu">
-			                  					<li><a href="#">Action</a></li>
-			                  					<li><a href="#">Another action</a></li>
-			                  					<li><a href="#">Something else here</a></li>
-			                  					<li class="divider"></li>
-			                  					<li class="nav-header">Nav header</li>
-			                  					<li><a href="#">Separated link</a></li>
-			                  					<li><a href="#">One more separated link</a></li>
+			                  					<li><a href="#">Cewe</a></li>
+			                  					<li><a href="#">NSWF</a></li>
+			                  					<li><a href="#">GIF</a></li>
+			                  					<li><a href="#">Meme</a></li>
+			                  					<li><a href="#">Imut</a></li>
+			                  					<li><a href="#">Cosplay</a></li>
+			                  					<li><a href="#">Timely</a></li>
+			                  					<li><a href="#">Komik</a></li>
+			                  					<li><a href="#">Makanan</a></li>
 			                				</ul>
 			              				</li>
 			            			</ul>
@@ -162,7 +163,7 @@
                     </div>
                 </div>
                 <div class="span4">
-                <h2>Ads Here</h2>
+                <h2>Iklan di sini</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
@@ -206,15 +207,15 @@
 
 						<ul id="footer-nav">
 
-							<li><a href="index.html">Start</a></li>
+							<li><a href="index.html">Mulai</a></li>
 
-							<li><a href="about.html">About</a></li>
+							<li><a href="about.html">Tentang</a></li>
 
-							<li><a href="services.html">Services</a></li>
+							<li><a href="services.html">Pelayanan</a></li>
 
-							<li><a href="pricing.html">Pricing</a></li>
+							<li><a href="pricing.html">Harga</a></li>
 
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.html">Kontak</a></li>
 
 						</ul>
 
@@ -254,7 +255,7 @@
 				<!-- start: About -->
 				<div class="span3">
 
-					<h3>About Us</h3>
+					<h3>Tentang Kami</h3>
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 					</p>
@@ -265,7 +266,7 @@
 				<!-- start: Photo Stream -->
 				<div class="span3">
 
-					<h3>Team's Photo</h3>
+					<h3>Foto Team</h3>
 					<div class="flickr-widget">
 							<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&display=latest&size=s&layout=x&source=user&user=29609591@N08"></script>
 						<div class="clear"></div>
@@ -277,7 +278,7 @@
 				<div class="span6">
 
 					<!-- start: Follow Us -->
-					<h3>Follow Us!</h3>
+					<h3>Ikuti Kami!</h3>
 					<ul class="social-grid">
 						<li>
 							<div class="social-item">				
@@ -340,8 +341,8 @@
 
 					<!-- start: Newsletter -->
 					<form id="newsletter">
-						<h3>Newsletter</h3>
-						<p>Please leave us your email</p>
+						<h3>Koran</h3>
+						<p>Silahkan tinggalkan email:</p>
 						<label for="newsletter_input">@:</label>
 						<input type="text" id="newsletter_input"/>
 						<input type="submit" id="newsletter_submit" value="submit">
