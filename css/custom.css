@@ -29,3 +29,14 @@
 {
     background-color: #63911F;
 }
+
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	top:0px;
+}
+
+body{
+	margin-top: 70px
+}

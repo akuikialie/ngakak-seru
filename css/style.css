@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5, h6 {
 header {
 	background: #fff;
 	border-bottom: 5px solid #f6f6f6;
+	height: 2000px;
+	margin: 0px auto;
 }
 
 .logo img {
