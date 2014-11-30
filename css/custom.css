@@ -1,0 +1,31 @@
+.post-container img
+{
+    width:100%;
+}
+
+.img-container
+{
+    padding:10px;
+    background-color:#fff;
+    -webkit-box-shadow: 0 0 4px 0 #000000;
+    box-shadow: 0 0 4px 0 #000000;  
+    border-radius:3px;
+}
+
+.post-tool
+{
+    padding:20px;
+}
+
+.like
+{
+    margin-top:-5px;
+    margin-left:5px;
+    margin-right:5px;
+    float:right;
+}
+
+.circle-color-full:hover
+{
+    background-color: #63911F;
+}
