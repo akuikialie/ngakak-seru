@@ -1,5 +1,11 @@
 {
     "require": {
-        "silex/silex": "~1"
+        "silex/silex": "~1",
+        "league/plates": "~3"
+    },
+    "autoload": {
+        "psr-0": {
+            "NgakakSeru\\": "src"
+        }
     }
 }
