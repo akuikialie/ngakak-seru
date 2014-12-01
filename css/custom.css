@@ -38,5 +38,9 @@ header{
 }
 
 body{
-	margin-top: 70px
+	margin-top: 90px
+}
+
+.span4{
+    margin-left: 80px; 
 }

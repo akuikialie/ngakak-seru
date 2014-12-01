@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 =================================================================== */
 	
 header {
-	background: #fff;
-	border-bottom: 5px solid #f6f6f6;
+	background: #f4f4f4;
+	border-bottom: 2px solid #CDCDCD;
 	height: 2000px;
 	margin: 0px auto;
 }
@@ -82,7 +82,7 @@ header {
 .navbar-inner, 
 .nav {
 	float: right;
-	background: #fff !important;
+	background: #f4f4f4 !important;
 	border: none;
 	-webkit-box-shadow: none;
      -moz-box-shadow: none;
@@ -98,10 +98,10 @@ header {
 
 .navbar .nav > li > a {
 	color: #666;
-	border-top:4px solid #fff;
+	border-top:4px solid #f4f4f4;
 	text-shadow: none;
 	font-size: 16px;
-	padding: 20px;
+	padding: 15px;
 
 }
 
@@ -1473,7 +1473,7 @@ form#newsletter input[type=submit] {
 @media only screen and (min-width: 960px) {
 	
 	header {
-		height: 64px;
+		height: 54px;
 	}
 	
 	#wrapper {
@@ -1499,7 +1499,7 @@ form#newsletter input[type=submit] {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	
 	header {
-		min-height: 64px;
+		min-height: 54px;
 	}
 	
 }
@@ -1509,7 +1509,7 @@ form#newsletter input[type=submit] {
 @media only screen and (max-width: 767px) {
 	
 	header {
-		min-height: 64px;
+		min-height: 54px;
 	}
 	
 }
@@ -1519,7 +1519,7 @@ form#newsletter input[type=submit] {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
 	header {
-		min-height: 64px;
+		min-height: 54px;
 	}
 	
 }
@@ -1529,7 +1529,7 @@ form#newsletter input[type=submit] {
 @media only screen and (max-width: 479px) {
 	
 	header {
-		min-height: 64px;
+		min-height: 54px;
 	}
 	
 }
