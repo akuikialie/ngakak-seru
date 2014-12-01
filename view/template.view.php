@@ -145,33 +145,81 @@
 			
 			<!-- start: Row -->
 			<div class="row">
-                <div class="span8">
-                    <div class="post-container">
-                        <h2>Judul Konten</h2><br>
-                        <div class="img-container">
-                            <img src="../img/default-image.png">
+                <div class="span8 main-container">
+                    <div class="content-container">
+                        <div class="post-container">
+                            <h2>Judul Konten</h2><br>
+                            <div class="img-container">
+                                <img src="../img/default-image.png">
+                            </div>
+                        </div>
+                        <div class="post-tool">
+                            <ul class="social-bookmarks ">
+                                <li class="facebook" title="Share"><a href="#">facebook</a></li>
+                                <li class="twitter" title="Tweet"><a href="#">twitter</a></li>
+                            </ul>
+                            <a href="" class="like" title="Suka"><i class="ico-thumbs-up  ico-white circle-color-full small-color"></i></a>
+                            <a href="" class="like" title="Tidak Suka"><i class="ico-thumbs-down  ico-white circle-color-full small-color"></i></a>
+                            <a href="" class="like" title="Komentar"><i class="ico-chat ico-white circle-color-full small-color"></i></a>
                         </div>
                     </div>
-                    <div class="post-tool">
-                        <ul class="social-bookmarks ">
-                            <li class="facebook" title="Share"><a href="#">facebook</a></li>
-                            <li class="twitter" title="Tweet"><a href="#">twitter</a></li>
-                        </ul>
-                        <a href="" class="like" title="Suka"><i class="ico-thumbs-up  ico-white circle-color-full small-color"></i></a>
-                        <a href="" class="like" title="Tidak Suka"><i class="ico-thumbs-down  ico-white circle-color-full small-color"></i></a>
-                        <a href="" class="like" title="Komentar"><i class="ico-chat ico-white circle-color-full small-color"></i></a>
+                    <div class="content-container">
+                        <div class="post-container">
+                            <h2>Judul Konten</h2><br>
+                            <div class="img-container">
+                                <img src="../img/default-image.png">
+                            </div>
+                        </div>
+                        <div class="post-tool">
+                            <ul class="social-bookmarks ">
+                                <li class="facebook" title="Share"><a href="#">facebook</a></li>
+                                <li class="twitter" title="Tweet"><a href="#">twitter</a></li>
+                            </ul>
+                            <a href="" class="like" title="Suka"><i class="ico-thumbs-up  ico-white circle-color-full small-color"></i></a>
+                            <a href="" class="like" title="Tidak Suka"><i class="ico-thumbs-down  ico-white circle-color-full small-color"></i></a>
+                            <a href="" class="like" title="Komentar"><i class="ico-chat ico-white circle-color-full small-color"></i></a>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <div class="post-container">
+                            <h2>Judul Konten</h2><br>
+                            <div class="img-container">
+                                <img src="../img/default-image.png">
+                            </div>
+                        </div>
+                        <div class="post-tool">
+                            <ul class="social-bookmarks ">
+                                <li class="facebook" title="Share"><a href="#">facebook</a></li>
+                                <li class="twitter" title="Tweet"><a href="#">twitter</a></li>
+                            </ul>
+                            <a href="" class="like" title="Suka"><i class="ico-thumbs-up  ico-white circle-color-full small-color"></i></a>
+                            <a href="" class="like" title="Tidak Suka"><i class="ico-thumbs-down  ico-white circle-color-full small-color"></i></a>
+                            <a href="" class="like" title="Komentar"><i class="ico-chat ico-white circle-color-full small-color"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="span4">
-                <h2>Iklan di sini</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                </p>
+                    <div class="img-container-ads">
+                        <img src="../img/bg-grey.png">
+                    </div>
+                    <div class="img-container-ads">
+                        <img src="../img/bg-grey.png">
+                    </div>
+                    <div class="img-container-ads">
+                        <img src="../img/bg-grey.png">
+                    </div>
+                    <h2>Subscribe</h2>
+                        <input type="text" name="subcribe" class="form-control">
+                        <button class="btn btn-default btn-md">Subscribe</button>
+                        <br><br>
+                    <h2>Get The App</h2>
+                        <button class="btn btn-default">DOWNLOAD</button>
+                        <br><br>
+                    <div id="footer">
+                        <a href="">Pasang Iklan</a> · <a href="">Kontak</a> · <a href="">Privasi</a> · <a href="">Peraturan</a>
+                        <br>
+                        www.NgakakSeru.com © 2014</a>
+                    </div>
                 </div>
 
 			</div>
@@ -182,66 +230,9 @@
 				
   	</div>
 	<!-- end: Wrapper  -->			
-
+	</div>
     <!-- start: Footer Menu -->
-	<div id="footer-menu" class="hidden-tablet hidden-phone">
-
-		<!-- start: Container -->
-		<div class="container">
-
-			<!-- start: Row -->
-			<div class="row">
-
-				<!-- start: Footer Menu Logo -->
-				<div class="span2">
-					<div id="footer-menu-logo">
-						<a href="#"><img src="../img/logo-footer-menu.png" alt="logo" /></a>
-					</div>
-				</div>
-				<!-- end: Footer Menu Logo -->
-
-				<!-- start: Footer Menu Links-->
-				<div class="span9">
-
-					<div id="footer-menu-links">
-
-						<ul id="footer-nav">
-
-							<li><a href="index.html">Mulai</a></li>
-
-							<li><a href="about.html">Tentang</a></li>
-
-							<li><a href="services.html">Pelayanan</a></li>
-
-							<li><a href="pricing.html">Harga</a></li>
-
-							<li><a href="contact.html">Kontak</a></li>
-
-						</ul>
-
-					</div>
-
-				</div>
-				<!-- end: Footer Menu Links-->
-
-				<!-- start: Footer Menu Back To Top -->
-				<div class="span1">
-
-					<div id="footer-menu-back-to-top">
-						<a href="#"></a>
-					</div>
-
-				</div>
-				<!-- end: Footer Menu Back To Top -->
-
-			</div>
-			<!-- end: Row -->
-
-		</div>
-		<!-- end: Container  -->	
-
-	</div>	
-	<!-- end: Footer Menu -->
+	
 
 	
 
