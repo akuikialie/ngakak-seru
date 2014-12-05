@@ -11,36 +11,6 @@
 	</header>
 	<!--end: Header-->
 
-	<!-- start: Map -->
-	<div>
-
-		<!-- starts: Google Maps -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<div id="googlemaps-container-top"></div>
-		<div id="googlemaps" class="google-map google-map-full"></div>
-		<div id="googlemaps-container-bottom"></div>
-		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="../js/jquery.gmap.min.js"></script>
-		<script type="text/javascript">
-			$('#googlemaps').gMap({
-				maptype: 'ROADMAP',
-				scrollwheel: false,
-				zoom: 15,
-				markers: [
-					{
-						address: '-6.331974, 106.961459', // Your Adress Here
-						html: 'DDAcademy Ngakak Seru',
-						popup: false,
-					}
-
-				],
-
-			});
-		</script>
-		<!-- end: Google Maps -->
-	</div>
-	<!-- end: Map -->	
-	
 	<!-- start: Wrapper -->	
 	<div id="wrapper">		
 
