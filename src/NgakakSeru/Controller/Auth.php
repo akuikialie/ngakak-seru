@@ -33,12 +33,14 @@ class Auth
         }
         
         if(!$this->errorMessage){
-            $insert = array(
+            $input = array(
                 'username' => $_POST['username'], 
                 'email' => $_POST['email'],
                 'password' => md5($_POST['password']),
-            );$this->errorMessage;        
-        return new Response($app['view']->render('auth',$data));
+            );
+            return new Response($app['view']->render('auth',$data));
+            $insertUser = NgakakSeru\Database\DatabaseCrud::insert($app['database'], 'users', $input);
+            $app['helper']->redirect(base_url().'dashboard');
         }
     }
     
