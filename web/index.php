@@ -3,9 +3,19 @@ session_start();
 // web/index.php
 require_once __DIR__.'/../vendor/autoload.php';
 
-
 $app = new Silex\Application();
 $app['view'] = new League\Plates\Engine(__DIR__ . '/../view/scripts', 'phtml');
+
+// Enable PHP Error level
+error_reporting(E_ALL);
+ini_set('display_errors','On');
+
+// Enable debug mode
+$app['debug'] = true;
+
+// Handle fatal errors
+
+
 
 $app->get('/', function () use ($app) {
     include __DIR__.'/../config/config.php';

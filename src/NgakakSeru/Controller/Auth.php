@@ -13,8 +13,8 @@ class Auth
     public function index(Request $request, Application $app)
     {
         // Render a template
-        $data['error'] = $this->errorMessage;
-        return new Response($app['view']->render('registerLogin',$data));
+        $data['base_url'] = $request->getBasePath();        
+        return new Response($app['view']->render('auth',$data));
     }
     
     public function register(Request $request, Application $app)
@@ -37,12 +37,9 @@ class Auth
                 'username' => $_POST['username'], 
                 'email' => $_POST['email'],
                 'password' => md5($_POST['password']),
-            );
-            $app['database']->insertTable('tbl_user',$insert);
-            $app['helper']->redirect(base_url().'dashboard');
+            );$this->errorMessage;        
+        return new Response($app['view']->render('auth',$data));
         }
-        $app['helper']->redirect(base_url().'auth');
-        
     }
     
     public function login(Request $request, Application $app)
@@ -65,4 +62,5 @@ class Auth
             $app['helper']->redirect(base_url().'auth');
         }
     }
+
 }
