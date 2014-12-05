@@ -5,6 +5,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Silex\Application();
 $app['view'] = new League\Plates\Engine(__DIR__ . '/../view/scripts', 'phtml');
+$app['database'] = NgakakSeru\Database\Connection::getConnection();
 
 // Enable PHP Error level
 error_reporting(E_ALL);

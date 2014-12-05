@@ -1,6 +1,6 @@
 <?php
 
-namespace CipikaImport\Database;
+namespace NgakakSeru\Database;
 
 class Connection
 {

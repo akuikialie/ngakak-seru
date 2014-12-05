@@ -2,7 +2,8 @@
     "require": {
         "silex/silex": "~1",
         "league/plates": "~3",
-        "symfony/debug": "~2.3"
+        "symfony/debug": "~2.3",
+        "robmorgan/phinx": "*"
     },
     "autoload": {
         "psr-0": {
