@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">NgakakSeruCom</a>
+                <a class="navbar-brand" href="../../web/index.php">NgakakSeruCom</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -362,7 +362,7 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            DataTables Advanced Tables
+                            Tabel Laporan gambar
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -370,11 +370,11 @@
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>Rendering engine</th>
-                                            <th>Browser</th>
-                                            <th>Platform(s)</th>
-                                            <th>Engine version</th>
-                                            <th>CSS grade</th>
+                                            <th>Nama User</th>
+                                            <th>Judul Gambar</th>
+                                            <th>Jenis File</th>
+                                            <th>Waktu Upload</th>
+                                            <th>Kategori Gambar</th>
                                         </tr>
                                     </thead>
                                     <tbody>
