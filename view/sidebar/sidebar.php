@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 <div class="span4">
                     <div class="img-container-ads">
-                        <img src="../img/bg-grey.png">
+                        <img src="../main/img/bg-grey.png">
                     </div>
                     <div class="img-container-ads">
-                        <img src="../img/bg-grey.png">
+                        <img src="../main/img/bg-grey.png">
                     </div>
                     <div class="img-container-ads">
-                        <img src="../img/bg-grey.png">
+                        <img src="../main/img/bg-grey.png">
                     </div>
                     <h2>Subscribe</h2>
                         <input type="text" name="subcribe" class="form-control">
