@@ -3,3 +3,4 @@ composer.lock
 src/NgakakSeru/Database/Connection.php
 phinx.yml
 var
+config/*.php
