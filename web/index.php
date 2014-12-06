@@ -4,9 +4,9 @@ session_start();
 require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Silex\Application();
-$app['config'] = include __DIR__.'/../config/config.php.dist';
+$app['config'] = include __DIR__.'/../config/config.php';
 $app['view'] = new League\Plates\Engine(__DIR__ . '/../view/scripts', 'phtml');
-$app['database'] = NgakakSeru\Database\Connection::getConnection(include __DIR__ . '/../config/database.php.dist');
+$app['database'] = NgakakSeru\Database\Connection::getConnection(include __DIR__ . '/../config/database.php');
 
 // Enable PHP Error level
 error_reporting(E_ALL);
