@@ -1,26 +1,112 @@
-<!doctype html>
 <html>
-<head>
-    <title>
-        <?php if ($this->section('title')) {
-            echo $this->section('title');
-        } ?>
-    </title>
-    <style>
-        body {
-            font-family: arial, helvetica;
-            font-size: 14px;
-            color: #333;
-            line-height: 1.5;
-        }
-    </style>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <title><?= $this->e($title) ?></title>
+        <meta name="description" content="<?= $this->e($description) ?>"/>
+        <meta name="keywords" content="<?= $this->e($keywords) ?>" />
+        <meta name="author" content="<?= $this->e($author) ?>"/>
+        <!-- end: Meta -->
 
-<div class="content">
-<?= $this->section('content') ?>
-</div>
+        <!-- start: Mobile Specific -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- end: Mobile Specific -->
 
-</body>
+        <!-- start: Facebook Open Graph -->
+        <meta property="og:title" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:type" content=""/>
+        <meta property="og:url" content=""/>
+        <meta property="og:image" content=""/>
+        <!-- end: Facebook Open Graph -->
+
+        <!-- start: CSS -->
+        <link href="<?= $baseUrl; ?>/css/bootstrap.css" rel="stylesheet">
+        <link href="<?= $baseUrl; ?>/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="<?= $baseUrl; ?>/css/style.css" rel="stylesheet">
+        <link href="<?= $baseUrl; ?>/css/custom.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+        <link href="<?= $baseUrl; ?>/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+        <!-- end: CSS -->
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+        <header>
+            <!--start: Container -->
+            <div class="container">
+                <!-- start: Row -->
+                <div class="row">
+                    <!--start: Logo -->
+                    <div class="logo span3">
+
+                        <a class="brand" href="#"><img src="<?= $baseUrl; ?>/img/logo.png"></a>
+
+                    </div>
+                    <!--end: Logo -->
+
+                    <!--start: Navigation -->
+                    <div class="span9">
+
+                        <div class="navbar navbar-inverse">
+                            <div class="navbar-inner">
+                                <div class="container">
+                                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </a>
+                                    <div class="nav-collapse collapse">
+                                        <ul class="nav">
+                                            <li><a href="index.html">TOP</a></li>
+                                            <li><a href="about.html">Trending</a></li>
+                                            <li><a href="services.html">Terbaru</a></li>
+                                            <li><a href="pricing.html">TV</a></li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kategori <b class="caret"></b></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Cewe</a></li>
+                                                    <li><a href="#">NSWF</a></li>
+                                                    <li><a href="#">GIF</a></li>
+                                                    <li><a href="#">Meme</a></li>
+                                                    <li><a href="#">Imut</a></li>
+                                                    <li><a href="#">Cosplay</a></li>
+                                                    <li><a href="#">Timely</a></li>
+                                                    <li><a href="#">Komik</a></li>
+                                                    <li><a href="#">Makanan</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>	
+                    <!--end: Navigation -->
+                </div>
+                <!-- end: Row -->
+            </div>
+        </header>
+
+        <?= $this->section($layout) ?>
+
+        <!-- start: Java Script -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="<?= $baseUrl; ?>/js/jquery-1.8.2.js"></script>
+        <script src="<?= $baseUrl; ?>/js/bootstrap.js"></script>
+        <script src="<?= $baseUrl; ?>/js/flexslider.js"></script>
+        <script src="<?= $baseUrl; ?>/main/js/carousel.js"></script>
+        <script src="<?= $baseUrl; ?>/main/js/jquery.cslider.js"></script>
+        <script src="<?= $baseUrl; ?>/main/js/slider.js"></script>
+        <script def src="<?= $baseUrl; ?>/main/js/custom.js"></script>
+        <!-- end: Java Script -->
+
+    </body>
 </html>
-
