@@ -8,7 +8,7 @@
 				<!--start: Logo -->
 				<div class="logo span3">
 						
-					<a class="brand" href="#"><img src="<?=base_url();?>../img/logo.png"></a>
+					<a class="brand" href="#"><img src="<?=base_url();?>../web/main/img/logo.png"></a>
 						
 				</div>
 				<!--end: Logo -->

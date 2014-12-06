@@ -24,7 +24,7 @@
                         <div class="post-container">
                             <h2>Judul Konten</h2><br>
                             <div class="img-container">
-                                <img src="../img/default-image.png">
+                                <img src="../main/img/default-image.png">
                             </div>
                         </div>
                         <div class="post-tool">
@@ -41,7 +41,7 @@
                         <div class="post-container">
                             <h2>Judul Konten</h2><br>
                             <div class="img-container">
-                                <img src="../img/default-image.png">
+                                <img src="../main/img/default-image.png">
                             </div>
                         </div>
                         <div class="post-tool">
@@ -58,7 +58,7 @@
                         <div class="post-container">
                             <h2>Judul Konten</h2><br>
                             <div class="img-container">
-                                <img src="../img/default-image.png">
+                                <img src="../main/img/default-image.png">
                             </div>
                         </div>
                         <div class="post-tool">
@@ -90,13 +90,13 @@
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="../js/jquery-1.8.2.js"></script>
-<script src="../js/bootstrap.js"></script>
-<script src="../js/flexslider.js"></script>
-<script src="../js/carousel.js"></script>
-<script src="../js/jquery.cslider.js"></script>
-<script src="../js/slider.js"></script>
-<script def src="../js/custom.js"></script>
+<script src="../main/js/jquery-1.8.2.js"></script>
+<script src="../mainmain//js/bootstrap.js"></script>
+<script src="../main/js/flexslider.js"></script>
+<script src="../main/js/carousel.js"></script>
+<script src="../main/js/jquery.cslider.js"></script>
+<script src="../main/js/slider.js"></script>
+<script def src="../main/js/custom.js"></script>
 <!-- end: Java Script -->
 
 </body>
